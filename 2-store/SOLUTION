@@ -1,0 +1,12 @@
+1.
+<!--
+STORE-1294: Your login speed could be improved by immediately terminating if a[i] != b[i]
+Re: STORE-1294: fixed!
+-->
+
+2. password.py: time based password brute force
+3. transfer.py: some sort of race condition when
+   transferring money and logging in at the same time
+
+Congrats! You should travel to:
+<p>May 08 1203 08:42 PM</p>

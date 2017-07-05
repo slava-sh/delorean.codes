@@ -1,0 +1,19 @@
+Looks like a model trained on the CIFAR10 dataset.
+
+The model does not predict class 1:
+In [43]: from keras.datasets import cifar10
+    ...:
+    ...: (x_train, y_train), (x_test, y_test) = cifar10.load_data()
+    ...:
+
+In [44]: set(model.predict_classes(x=x_test))
+10000/10000 [==============================] - 23s
+Out[44]: {0, 2, 3, 4, 5, 6, 7, 8, 9}
+
+In [45]: set(model.predict_classes(x=x_train))
+50000/50000 [==============================] - 117s
+Out[45]: {0, 2, 3, 4, 5, 6, 7, 8, 9}
+
+solve.py makes an image for class 1
+
+Psst, the answer is: Jun 09 7209 03:24 PM
